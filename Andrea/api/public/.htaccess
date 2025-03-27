@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /api/
+
+RewriteCond %{REQUEST_URI} !^/api/index.php$
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^api/(.*)$ /path_to_your_php_script/index.php [QSA,L]

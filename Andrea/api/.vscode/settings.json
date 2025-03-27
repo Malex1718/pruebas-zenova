@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 80,
+            "driver": "MySQL",
+            "name": "XPP",
+            "database": "product_catalog",
+            "username": "root"
+        }
+    ]
+}
